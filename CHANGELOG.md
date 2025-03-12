@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.2] - 2025.03.13
+
+- Added color for method calls
+- Added project metadata like urls and icon
+- Updated README.md with few exmaples
+
 ## [0.0.1] - 2025.03.11
 
 ### Added
