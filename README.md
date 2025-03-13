@@ -6,6 +6,10 @@ The theme emphasizes readability, with italicized keywords and comments, distinc
 
 It’s a humble attempt to create a balanced, comfortable coding experience, especially for Python developers—but hopefully, it can be useful for others as well! 😊
 
+## Colors
+
+![](img/theme_colors.png)
+
 ## Examples
 
 ### Python example
