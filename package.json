@@ -1,11 +1,15 @@
 {
   "name": "dark-prism",
   "publisher": "pchomik",
+  "author": {
+    "name": "Pawel Chomicki",
+    "email": "pawel.chomicki@gmail.com"
+  },
   "displayName": "Dark Prism",
   "description": "Prism of colors over darkness.",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "engines": {
-    "vscode": "^1.98.0"
+    "vscode": "^1.13.0"
   },
   "homepage": "https://github.com/pchomik/dark-prism/blob/main/README.md",
   "categories": [
@@ -21,7 +25,13 @@
       }
     ]
   },
-  "icon": "img/icon.jpg",
+  "icon": "img/icon.png",
+  "keywords": [
+    "vscode",
+    "theme",
+    "python",
+    "dark"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/pchomik/dark-prism"
