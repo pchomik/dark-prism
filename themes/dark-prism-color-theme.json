@@ -1,7 +1,7 @@
 {
     "tokenColors": [
         {
-            "name": "Comment",
+            "name": "Dark Green Italic",
             "scope": ["comment", "string.quoted.docstring.multi.python"],
             "settings": {
                 "fontStyle": "italic",
@@ -9,97 +9,41 @@
             }
         },
         {
-            "name": "Keyword",
-            "scope": ["keyword", "keyword.control.rust", "keyword.other.rust", "keyword.other.crate.rust"],
+            "name": "Orange Italic",
+            "scope": [
+                "keyword.control.rust",
+                "keyword.other.crate.rust",
+                "keyword.other.rust",
+                "keyword",
+                "punctuation.definition.list.begin.markdown",
+                "storage.type.class.python",
+                "storage.type.function.async.python",
+                "storage.type.function.python",
+                "storage"
+            ],
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#CC7833"
             }
         },
         {
-            "name": "Number",
-            "scope": ["constant.numeric.dec.python"],
+            "name": "Purple",
+            "scope": [
+                "constant.language",
+                "constant.numeric.dec.python",
+                "entity.name.function.decorator.python",
+                "keyword.operator.logical.python",
+                "punctuation.definition.decorator.python",
+                "variable.language",
+                "variable.other"
+            ],
             "settings": {
+                "fontStyle": "",
                 "foreground": "#AE81FF"
             }
         },
         {
-            "name": "Logical",
-            "scope": ["keyword.operator.logical.python"],
-            "settings": {
-                "foreground": "#AE81FF"
-            }
-        },
-        {
-            "name": "Storage",
-            "scope": ["storage"],
-            "settings": {
-                "fontStyle": "italic",
-                "foreground": "#CC7833"
-            }
-        },
-        {
-            "name": "Storage bold",
-            "scope": ["storage.type.class.python", "storage.type.function.python", "storage.type.function.async.python"],
-            "settings": {
-                "fontStyle": "italic",
-                "foreground": "#CC7833"
-            }
-        },
-        {
-            "name": "Magic bold",
-            "scope": ["support.function.magic.python"],
-            "settings": {
-                "fontStyle": "italic",
-                "foreground": "#FF6188"
-            }
-        },
-        {
-            "name": "Todo",
-            "scope": ["keyword.codetag.notation.python"],
-            "settings": {
-                "fontStyle": "bold italic",
-                "foreground": "#FF6188"
-            }
-        },
-        {
-            "name": "Function (definition)",
-            "scope": ["entity.name.function", "keyword.other.name-of-parameter.objc"],
-            "settings": {
-                "fontStyle": "italic",
-                "foreground": "#FFC66D"
-            }
-        },
-        {
-            "name": "Python parent class",
-            "scope": ["meta.class.inheritance.python"],
-            "settings": {
-                "foreground": "#76AED8"
-            }
-        },
-        {
-            "name": "Rust storage",
-            "scope": ["storage.modifier.mut.rust", "storage.type.rust"],
-            "settings": {
-                "foreground": "#FF6188"
-            }
-        },
-        {
-            "name": "Python operator",
-            "scope": ["keyword.operator", "entity.name.function.macro.rust"],
-            "settings": {
-                "foreground": "#FF6188"
-            }
-        },
-        {
-            "name": "Function (call)",
-            "scope": ["meta.function-call.generic.python", "meta.function.call.rust", "punctuation.definition.interpolation.rust"],
-            "settings": {
-                "foreground": "#d0ba90"
-            }
-        },
-        {
-            "name": "Class (definition)",
+            "name": "Purple Italic",
             "scope": ["entity.name", "meta.class.python", "support.type.python", "entity.name.type.option.rust"],
             "settings": {
                 "fontStyle": "italic",
@@ -107,219 +51,110 @@
             }
         },
         {
-            "name": "Decorators",
-            "scope": ["punctuation.definition.decorator.python", "entity.name.function.decorator.python"],
-            "settings": {
-                "foreground": "#AE81FF"
-            }
-        },
-        {
-            "name": "Number",
-            "scope": "constant.numeric",
-            "settings": {
-                "foreground": "#80c874"
-            }
-        },
-        {
-            "name": "Other Rust",
-            "scope": ["variable.other.rust", "entity.name.namespace.rust"],
-            "settings": {
-                "foreground": "#cccccc"
-            }
-        },
-        {
-            "name": "Variable",
-            "scope": ["variable.language", "variable.other"],
-            "settings": {
-                "foreground": "#AE81FF"
-            }
-        },
-        {
-            "name": "Block Parameter",
-            "scope": "variable.other.block",
-            "settings": {
-                "foreground": "#E6E1DC"
-            }
-        },
-        {
-            "name": "Constant Caps",
-            "scope": "constant.other.caps.python",
-            "settings": {
-                "foreground": "#a4d044"
-            }
-        },
-        {
-            "name": "Constant",
-            "scope": "constant",
-            "settings": {
-                "foreground": "#76AED8"
-            }
-        },
-        {
-            "name": "Constant (other variable)",
-            "scope": "variable.other.constant",
-            "settings": {
-                "foreground": "#FF6188"
-            }
-        },
-        {
-            "name": "Constant (built-in)",
-            "scope": "constant.language",
-            "settings": {
-                "foreground": "#AE81FF"
-            }
-        },
-        {
-            "name": "String",
-            "scope": "string",
-            "settings": {
-                "foreground": "#80c874"
-            }
-        },
-        {
-            "name": "Library function",
+            "name": "Red",
             "scope": [
+                "entity.name.function.macro.rust",
+                "keyword.operator",
+                "markup.deleted.diff",
+                "markup.deleted",
+                "storage.modifier.mut.rust",
+                "storage.type.rust",
                 "support.function",
-                "variable.language.special.self.python",
-                "variable.parameter.function.language.special.self.python",
+                "todo.task.urgent",
                 "variable.language.special.cls.python",
-                "variable.parameter.function.language.special.cls.python"
+                "variable.language.special.self.python",
+                "variable.other.constant",
+                "variable.parameter.function.language.special.cls.python",
+                "variable.parameter.function.language.special.self.python"
             ],
             "settings": {
+                "fontStyle": "",
                 "foreground": "#FF6188"
             }
         },
         {
-            "name": "Library type",
-            "scope": ["support.type", "variable.parameter.function.language.python"],
+            "name": "Red Italic",
+            "scope": ["support.function.magic.python"],
             "settings": {
+                "fontStyle": "italic",
+                "foreground": "#FF6188"
+            }
+        },
+        {
+            "name": "Red Bold Italic",
+            "scope": ["keyword.codetag.notation.python"],
+            "settings": {
+                "fontStyle": "bold italic",
+                "foreground": "#FF6188"
+            }
+        },
+        {
+            "name": "Yellow Italic",
+            "scope": [
+                "meta.function.definition.rust entity.name.function.rust",
+                "entity.name.function - meta.function.call",
+                "keyword.other.name-of-parameter.objc",
+                "markup.fenced_code.block.markdown",
+                "markup.inline.raw.string.markdown",
+                "meta.diff.header.from-file",
+                "meta.diff.header.git",
+                "meta.diff.header.to-file",
+                "meta.diff.index.git"
+            ],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#FFC66D"
+            }
+        },
+        {
+            "name": "Blue",
+            "scope": [
+                "constant",
+                "declaration.tag",
+                "entity.name.tag",
+                "entity.other.attribute-name",
+                "meta.class.inheritance.python",
+                "meta.diff.range.unified",
+                "meta.function-call.generic.python",
+                "meta.function.call.rust entity.name.function.rust",
+                "meta.tag",
+                "punctuation.definition.heading.markdown",
+                "punctuation.definition.interpolation.rust",
+                "support.type",
+                "variable.parameter.function-call.python",
+                "variable.parameter.function.language.python",
+                "todo.category.name"
+            ],
+            "settings": {
+                "fontStyle": "",
                 "foreground": "#76AED8"
             }
         },
         {
-            "scope": "support.constant",
-            "name": "Library constant",
+            "name": "Green",
+            "scope": [
+                "constant.numeric",
+                "constant.other.caps.python",
+                "string",
+                "support.constant",
+                "constant.character.escaped",
+                "constant.character.escape",
+                "string source",
+                "string source.ruby",
+                "markup.inserted",
+                "markup.inserted.diff"
+            ],
             "settings": {
+                "fontStyle": "",
                 "foreground": "#80c874"
             }
         },
         {
-            "name": "Markup tag",
-            "scope": ["meta.tag", "declaration.tag", "entity.name.tag", "entity.other.attribute-name", "variable.parameter.function-call.python"],
+            "name": "White",
+            "scope": ["variable.other.rust", "entity.name.namespace.rust", "variable.other.block", "invalid"],
             "settings": {
-                "foreground": "#76AED8"
-            }
-        },
-        {
-            "name": "Invalid",
-            "scope": "invalid",
-            "settings": {
+                "fontStyle": "",
                 "foreground": "#cccccc"
-            }
-        },
-        {
-            "name": "String interpolation",
-            "scope": ["constant.character.escaped", "constant.character.escape", "string source", "string source.ruby"],
-            "settings": {
-                "foreground": "#519F50"
-            }
-        },
-        {
-            "name": "Diff header",
-            "scope": ["meta.diff.header.git", "meta.diff.index.git", "meta.diff.header.from-file", "meta.diff.header.to-file"],
-            "settings": {
-                "foreground": "#E8BF6A"
-            }
-        },
-        {
-            "name": "Diff range",
-            "scope": "meta.diff.range.unified",
-            "settings": {
-                "foreground": "#76AED8"
-            }
-        },
-        {
-            "name": "Diff Add",
-            "scope": ["markup.inserted", "markup.inserted.diff"],
-            "settings": {
-                "foreground": "#519F50"
-            }
-        },
-        {
-            "name": "Diff Remove",
-            "scope": ["markup.deleted", "markup.deleted.diff"],
-            "settings": {
-                "foreground": "#FF6188"
-            }
-        },
-        {
-            "name": "TODO Category Name",
-            "scope": "todo.category.name",
-            "settings": {
-                "foreground": "#E8BF6A"
-            }
-        },
-        {
-            "name": "TODO Urgent",
-            "scope": "todo.task.urgent",
-            "settings": {
-                "foreground": "#FEFF00"
-            }
-        },
-        {
-            "name": "TODO Category Extras",
-            "scope": "todo.category.extras",
-            "settings": {
-                "foreground": "#BC9458"
-            }
-        },
-        {
-            "name": "TODO Task Dormant",
-            "scope": "todo.task.dormant",
-            "settings": {
-                "foreground": "#807C79"
-            }
-        },
-        {
-            "name": "TODO Task Complete",
-            "scope": "todo.task.complete",
-            "settings": {
-                "foreground": "#FF6188"
-            }
-        },
-        {
-            "name": "TODO Task Question",
-            "scope": "todo.task.question",
-            "settings": {
-                "foreground": "#82A7E2"
-            }
-        },
-        {
-            "name": "TODO Task Large",
-            "scope": "todo.task.large",
-            "settings": {
-                "foreground": "#80c874"
-            }
-        },
-        {
-            "name": "Markdown headers",
-            "scope": "punctuation.definition.heading.markdown",
-            "settings": {
-                "foreground": "#82A7E2"
-            }
-        },
-        {
-            "name": "Markdown lists",
-            "scope": "punctuation.definition.list.begin.markdown",
-            "settings": {
-                "foreground": "#BC9458"
-            }
-        },
-        {
-            "name": "Markdown code block",
-            "scope": ["markup.fenced_code.block.markdown", "markup.inline.raw.string.markdown"],
-            "settings": {
-                "foreground": "#E8BF6A"
             }
         }
     ],
@@ -331,5 +166,5 @@
         "editor.lineHighlightBackground": "#333435",
         "editor.selectionBackground": "#5A647Eff"
     },
-    "name": "Railscasts-New"
+    "name": "Dark Prism"
 }
